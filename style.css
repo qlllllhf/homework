@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+body {
+	background-color: #100F0F;
+	font-family: 'Inconsolata', monospace;
+   display: grid;
+	justify-content: center;
+	margin-top: 100px;
+   box-sizing: border-box;
+}
+
+.calc {
+  border-radius: 5px;
+  border-color: red;
+  padding: 50px;
+  letter-spacing: 0.1em;
+  border: 2px solid;
+  border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+  border-image-slice: 1;
+  margin-top: 70px;
+}
+  #result_multi {
+  font-size: 80px;
+  font-weight: 900;
+  color: #00deff;
+}
+
+#inp_2 {
+   width: 200px;
+   height: 25px;
+   letter-spacing: 0.1em;
+   border: 2px solid;
+   border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+   border-image-slice: 1;
+   border-radius: 5px;
+   font-size: 20px;
+   color: #00deff;
+   background-color: #100F0F;
+   outline: none;
+   font-family: 'Inconsolata', monospace;
+}
+
+
+#inp_1 {
+   width: 200px;
+   height: 25px;
+   letter-spacing: 0.2em;
+   border: 2px solid;
+   border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+   border-image-slice: 1;
+   border-radius: 5px;
+   font-size: 20px;
+   color: #00deff;
+   background-color: #100F0F;
+   outline: none;
+   font-family: 'Inconsolata', monospace;
+}
+
+#inp_1:hover {
+   border-image: linear-gradient(20deg, #18FFB2 38%, #18FFB2 65%);
+   border-image-slice: 1;
+   border-radius: 5px;
+
+}
+
+#inp_2:hover {
+   border-image: linear-gradient(20deg, #18FFB2 38%, #18FFB2 65%);
+   border-image-slice: 1;
+   border-radius: 5px;
+
+}
+p {
+   color: #00deff;
+}
+
+span {
+   color: #00deff;  
+}
+
+hr {
+   margin-top: 50px;
+   background-color:#555;
+}
+
+
+h1 {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 100px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg,  #f92056 33%, #00deff 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin: 20px auto;
+  letter-spacing: 0.1em;
+}
+
+.btn {
+  min-width: 200px;
+  font-family: inherit;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #f92056;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 80px;
+  height: 40px;
+  position: relative;
+  margin-left: 375px;
+}
+
+.btn:hover {
+  background: #00deff;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.footer {
+   text-align: center;
+   margin-right: 30px;
+   margin-top: 130px;
+   color: #00deff;
+   font-family: 'Inconsolata', monospace;
+}
